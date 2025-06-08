@@ -1,0 +1,109 @@
+/* General Reset and Typography */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.3em;
+    margin-top: 2em;
+    font-size: 1.5rem;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 2em 0;
+}
+
+/* Container Styles */
+body > div {
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+/* Name and Picture */
+.Name_Picture {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 2em;
+}
+
+.Name_Picture img {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border: 1px solid #ddd;
+}
+
+/* Summary */
+.Summary p {
+    text-align: justify;
+    font-size: 1.05rem;
+    margin: 0;
+}
+
+/* Lists and Education/Experience */
+ol, ul {
+    padding-left: 1.5em;
+}
+
+li {
+    margin-bottom: 0.7em;
+}
+
+li > ul {
+    margin-top: 0.3em;
+}
+
+b i {
+    color: #34495e;
+}
+
+/* Section Specific */
+.Skills i,
+.Work\ Experience i {
+    color: #2980b9;
+}
+
+/* Certification Images */
+.Certification\ \&\ Awards img {
+    display: block;
+    margin-top: 0.5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Contact and Footer */
+.Other a {
+    font-weight: bold;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.Other a:hover {
+    text-decoration: underline;
+}
+
+.Footer {
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9rem;
+    color: #777;
+}
